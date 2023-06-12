@@ -1,0 +1,43 @@
+div.layout {
+    position: relative;
+    float: left;
+    overflow: auto;
+    border: 2px solid black;
+    font-family: arial, sans-serif;
+    font-size: 14pt;
+}
+
+div#outer {
+    width: 408px;
+    height: 408px;
+    border: none;
+}
+
+div#nw {
+    width: 300px;
+    height: 100px;
+}
+
+div#ne {
+    width: 100px;
+    height: 300px;
+    float: right;
+}
+
+div#sw {
+    width: 100px;
+    height: 300px;
+}
+
+div#core {
+    width: 200px;
+    height: 200px;
+    border: none;
+    padding: none;
+}
+
+div#se {
+    width: 300px;
+    height: 100px;
+}
+

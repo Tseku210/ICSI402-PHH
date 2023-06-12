@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hospital_time_registration_web:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hospital_time_registration_web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hospital_time_registration_web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hospital_time_registration_web:war exploded" />
+    </root>
+  </artifact>
+</component>

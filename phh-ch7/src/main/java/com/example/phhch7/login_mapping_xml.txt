@@ -1,0 +1,12 @@
+    <servlet>
+        <servlet-name>Ch7AccountLogin</servlet-name>
+        <servlet-class>ch7.accountLogin.Controller</servlet-class>
+        <init-param>
+            <param-name>create</param-name>
+            <param-value>false</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ch7AccountLogin</servlet-name>
+        <url-pattern>/ch7/accountLogin/Controller</url-pattern>
+    </servlet-mapping>

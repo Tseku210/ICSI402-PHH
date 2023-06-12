@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    text-align: right;
+}
+
+table, td {
+    border: thin solid black;
+}
+
+td.under {
+    text-decoration: underline;
+    text-align: right;
+}
+
+td.center {
+    font-weight: bold;
+    text-align: center;
+}
+
+.warning {
+    font-size: 150%;
+}

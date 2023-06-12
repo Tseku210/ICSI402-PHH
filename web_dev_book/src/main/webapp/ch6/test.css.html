@@ -1,0 +1,41 @@
+
+<html>
+<head>
+    <title>Test page for CSS</title>
+    <meta charset="utf-8">
+    <link REL="stylesheet" TYPE="text/css"
+          HREF="test.css">
+</head>
+<body>
+This is some text that is not included in
+a paragraph. It should be centered across the page.
+<p>
+    This is the text for the paragraph. It should
+    be italicised and aligned to the right side of the
+    page.
+<table>
+    <tr>
+        <td>Normal Text</td>
+        <td>is not centered. It is not centered because
+            tables have a default alignment of left, so
+            the center of the body does not cascade. It
+            has a strong <strong class="warning">warning</strong>.
+        </td>
+    </tr>
+    <tr>
+        <td class="under">In a TD: under</td>
+        <td class="under">is underlined and right aligned</td>
+    </tr>
+    <tr>
+        <td class="center">In a TD: center</td>
+        <td class="center">is bold and centered</td>
+    </tr>
+</table>
+<p>
+    This is in a paragraph, too. It has right alignment.
+    It has an underlined <ins class="warning">warning</ins>.
+</p>
+This is not in a paragraph, it is centered.
+It has an emphatic <em class="warning">warning</em>.
+</body>
+</html>

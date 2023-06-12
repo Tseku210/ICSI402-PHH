@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="phh-ch7:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>phh-ch7</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="phh-ch7-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="phh-ch7:war exploded" />
+    </root>
+  </artifact>
+</component>
